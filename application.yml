@@ -1,6 +1,10 @@
 spring:
   application:
     name: USERSERVICEDEFAULT
+  datasource:
+    url: jdbc:mysql://localhost:3306/microservices
+    username: root
+    password: pradeep@123
 
 eureka:
   instance:
