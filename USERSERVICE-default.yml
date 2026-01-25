@@ -1,0 +1,22 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: USERSERVICE
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+info:
+  app:
+    name: user-service
+    description: User Service for microservices
+    version: 1.0.0
