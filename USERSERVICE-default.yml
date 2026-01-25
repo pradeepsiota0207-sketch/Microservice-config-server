@@ -13,6 +13,8 @@ resilience4j:
     instances:
       RATINGSERVICE:
         baseConfig: default
+      HOTELSERVICE:
+        baseConfig: default
 info:
   app:
     name: user-service
