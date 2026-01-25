@@ -8,19 +8,6 @@ spring:
     properties:
       hibernate:
         format_sql: true  
-management:
-  health:
-    circuitbreakers:
-      enabled: true
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-  endpoint:
-    info:
-      enabled: true
-    health:
-      show-details: always
 info:
   app:
     name: user-service
