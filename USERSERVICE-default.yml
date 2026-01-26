@@ -15,6 +15,13 @@ resilience4j:
         baseConfig: default
       HOTELSERVICE:
         baseConfig: default
+  retry:
+    instances:
+      RATINGSERVICE:
+        baseConfig: default
+      HOTELSERVICE:
+        baseConfig: default
+      
 info:
   app:
     name: user-service
